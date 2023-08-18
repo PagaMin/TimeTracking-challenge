@@ -1,0 +1,94 @@
+.stats-weekly {
+    width: 825px;
+    height: 520px;
+    display: none;
+    flex-wrap: wrap;
+    gap: 1.7rem;
+}
+
+.stats-monthly {
+    width: 825px;
+    height: 520px;
+    display: none;
+    flex-wrap: wrap;
+    gap: 1.7rem;
+}
+
+.stats-daily {
+    width: 825px;
+    height: 520px;
+    display: none;
+    flex-wrap: wrap;
+    gap: 1.7rem;
+}
+
+.work {
+    padding: 1rem;
+    width: 256px;
+    height: 200px;
+    border-radius: 0.75rem;
+    background-color: $dark-blue;
+    position: relative;
+    top: -19px;
+}
+
+.icon {
+    height: 60px;
+    position: relative;
+    left: 185px;
+}
+
+.icon-exercise {
+    height: 60px;
+    position: relative;
+    left: 155px;
+}
+
+.work-stats {
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.current-hrs {
+    margin-top: 2rem;
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+.previous-hrs {
+    margin-top: 10px;
+    color: $pale-blue;
+}
+
+.sub-stats-exercise,
+.sub-stats-play,
+.sub-stats-self-care,
+.sub-stats-social,
+.sub-stats-study,
+.sub-stats-work {
+    width: 256px;
+    height: 244px;
+    border-radius: 0.75rem;
+}
+.sub-stats-work {
+    background-color: $light-red-work;
+}
+.sub-stats-play {
+    background-color: $soft-blue-play;
+}
+.sub-stats-study {
+    background-color: $light-red-study;
+}
+.sub-stats-exercise {
+    background-color: $lime-green-exercise;
+}
+.sub-stats-social {
+    background-color: $violet-social;
+}
+.sub-stats-self-care {
+    background-color: $soft-orange-self-care;
+}

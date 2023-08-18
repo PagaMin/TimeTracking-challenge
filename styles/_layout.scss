@@ -1,0 +1,68 @@
+body {
+    background-color: $very-dark-blue;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 2rem;
+}
+
+.perfil {
+    width: 255px;
+    height: 520px;
+}
+
+.perfil--name {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: $blue;
+    height: 360px;
+    border-radius: 10px 10px 0px 0px;
+    color: #fff;
+}
+
+.report-for {
+    font-weight: 300;
+    color: $pale-blue;
+    font-size: 0.9rem;
+    margin-top: 2.5rem;
+}
+
+.name {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.data {
+    width: 70px;
+}
+
+.image-jeremy {
+    width: 84px;
+    height: 84px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.perfil--date {
+    height: 160px;
+    background-color: $dark-blue;
+    border-radius: 0px 0px 10px 10px;
+    color: $desaturated-blue;
+    padding: 2.2rem;
+
+    p:nth-child(2) {
+        margin: 1rem 0;
+    }
+    p {
+        cursor: pointer;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
